@@ -76,6 +76,11 @@
     color:#cd6a19;
 }
 
+.rotate-image {
+    transition: transform 1s ease;
+    transform: rotate(360deg);
+}
+
 @media only screen and (max-width: 600px) {
     .mascot img {
         width: 200px;
