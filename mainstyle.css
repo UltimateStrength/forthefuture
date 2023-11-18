@@ -2,10 +2,10 @@
 @import url('https://fonts.cdnfonts.com/css/lilita-one');
 
 /* CSSs Linkados */
-@import url("/assets/styles/header.css");
-@import url("/assets/styles/content.css");
-@import url("/assets/styles/footer.css");
-@import url("/assets/styles/scrollbar.css");
+@import url("./assets/styles/header.css");
+@import url("./assets/styles/content.css");
+@import url("./assets/styles/footer.css");
+@import url("./assets/styles/scrollbar.css");
 
 /* Corpo */
 body {
