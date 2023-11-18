@@ -9,8 +9,8 @@ document.addEventListener("keydown", function (e) {
 
 });
 
- Bloqueia a Função que o Botão Direito do Mouse Executaria no Site
-document.addEventListener("contextmenu", function (e) {
+// Bloqueia a Função que o Botão Direito do Mouse Executaria no Site
+ document.addEventListener("contextmenu", function (e) {
     e.preventDefault();
     
 }, false);
