@@ -55,7 +55,7 @@ header a:hover {
     color: #cd6a19;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 600px) {
     header img {
         width: 60px;
         height: auto;

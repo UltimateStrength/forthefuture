@@ -11,6 +11,10 @@
     color: #ffffff;
 }
 
+.mascot img {
+    width: 450px;
+}
+
 .purple-box {
     background-color: #8c76e1;
     color: #ffffff;
@@ -70,4 +74,37 @@
 
 #content button:hover {
     color:#cd6a19;
+}
+
+@media only screen and (max-width: 600px) {
+    .mascot img {
+        width: 200px;
+    }
+
+    .purple-box {
+        display: block;
+    }
+
+    .text {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #content button {
+        padding: 10px;
+        border: 4px solid white;
+        border-radius: 10px;
+        background-color: transparent;
+        color: #ffbb83;
+        font-family: 'Lilita One', Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .center-button {
+        margin-bottom: 50px;
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
 }
