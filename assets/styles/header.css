@@ -54,3 +54,39 @@ header a {
 header a:hover {
     color: #cd6a19;
 }
+
+@media only screen and (max-width: 360px) {
+    header img {
+        width: 60px;
+        height: auto;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    header img:hover {
+        width: 65px;
+    }
+
+    header span {
+        font-size: 16px; 
+    }
+
+    header nav {
+        display: none; 
+    }
+
+    header .menu-icon {
+        display: block;
+        margin-right: 30px;
+        margin-bottom: 5px;
+    }
+
+    header .menu-icon img {
+        width: 30px;
+    }
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
