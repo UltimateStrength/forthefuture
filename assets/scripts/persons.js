@@ -30,6 +30,11 @@ function toggleImage(image) {
     };
 
     if (currentImage in imageMap) {
-        image.src = "assets/images/" + imageMap[currentImage];
+        image.classList.add('rotate-image');
+
+        setTimeout(() => {
+            image.src = "assets/images/" + imageMap[currentImage];
+            image.classList.remove('rotate-image');
+        }, 1000);
     }
 }
