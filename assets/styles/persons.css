@@ -1,0 +1,25 @@
+.person {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 10px 40px;
+}
+
+.person-image {
+    width: 150px; 
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.5s ease; 
+}
+
+.person-info {
+    flex-grow: 1;
+    margin-left: 10px;
+    box-sizing: border-box;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.person-image:hover {
+    width: 160px; 
+}

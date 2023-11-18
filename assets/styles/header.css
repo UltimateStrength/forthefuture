@@ -1,0 +1,56 @@
+/* Cabeçalho */
+header {
+    background-color: #352479;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    z-index: 1; 
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+header img:hover {
+    width: 85px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+header span {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    color: #ffbb83;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #cd6a19;
+}

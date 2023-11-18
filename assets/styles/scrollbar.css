@@ -1,0 +1,16 @@
+/* Barra Lateral */
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #231754;
+}
+
+::-webkit-scrollbar-track-piece:start {
+    background: #6656a7;
+}
+
+::-webkit-scrollbar-track-piece:end {
+    background: #6656a7;
+}
